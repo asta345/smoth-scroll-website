@@ -32,7 +32,7 @@ const highlightmenu=()=>{
 	return;
       }
     
-      if ((elem && window.innerWIdth < 960 && scrollPos < 600) || elem) {
+      if ((elem && window.innerWIdth < 960 && scrollPos < 600) || ele) {
 	elem.classList.remove('highlight');
       }
     };
